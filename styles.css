@@ -1,9 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0a1128;
     color: #1282a2;
+}
+
+header {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 ul {
@@ -32,7 +45,7 @@ ul li a:hover {
     color: #034078;
 }
 
-ul li a.active {
+ul li a:active {
     background-color: #034078;
     color: #1282a2;
 }
