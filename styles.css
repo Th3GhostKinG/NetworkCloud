@@ -8,7 +8,7 @@ html {
 
 ul {
     list-style-type: none;
-    padding: -10;
+    padding: 0;
     margin: 0;
     overflow: hidden;
     background-color: #001f54;
@@ -20,6 +20,7 @@ ul li {
 
 ul li a {
     display: block;
+    font-weight: bold;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
