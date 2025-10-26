@@ -1,9 +1,17 @@
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1128;
+    color: #1282a2;
+}
+
 ul {
     list-style-type: none;
     padding: -10;
     margin: 0;
     overflow: hidden;
-    background-color: navy;
+    background-color: #001f54;
 }
 
 ul li {
@@ -19,5 +27,6 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: darkblue;
+    background-color: #1282a2;
+    color: #034078;
 }
